@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac's Method - Transform Your Mindset and Body</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-size: 18px;
+        }
+        header {
+            background-color: #c0392b; /* Aggressive red color */
+            color: #ecf0f1;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .hero {
+            text-align: center;
+            background-color: #e74c3c; /* Aggressive red color */
+            color: #fff;
+            padding: 20px 0;
+            position: relative;
+        }
+        .hero img {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 380px;
+            margin: 0 auto;
+            display: block;
+            opacity: 0.7;
+        }
+        .hero h1 {
+            position: relative;
+            margin: 0;
+            font-size: 2.5em;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-weight: 700;
+            display: inline-block;
+        }
+        .about, .services, .success-stories, .cta, .follow {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #c0392b; /* Aggressive red color */
+            font-size: 1.8em;
+            font-weight: 700;
+        }
+        .cta a, .follow a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            color: #fff;
+            background: #c0392b; /* Aggressive red color */
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            font-weight: 700;
+        }
+        .cta a:hover, .follow a:hover {
+            background: #e74c3c; /* Aggressive red color */
+        }
+        .image-placeholder, .dopeImage {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services ul li {
+            background: #ecf0f1;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #c0392b; /* Aggressive red color */
+            font-size: 1.1em;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .social-media a {
+            color: #c0392b; /* Aggressive red color */
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px;
+        }
+        .social-media a:hover {
+            color: #e74c3c; /* Aggressive red color */
+        }
+        .social-media i {
+            font-size: 1.5em;
+            margin-right: 8px;
+        }
+        .styled-paragraph {
+            background-color: #e74c3c; /* Aggressive red color */
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 1.4em;
+            text-align: center;
+            font-weight: 700;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+        .styled-paragraph span {
+            display: block;
+            margin-top: 10px;
+            font-size: 1em;
+            font-weight: 400;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+                padding: 5px 10px;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            .styled-paragraph {
+                font-size: 1.2em;
+            }
+            .cta a, .follow a {
+                font-size: 1em;
+                padding: 8px 16px;
+            }
+        }
+        @media (min-width: 768px) {
+            .image-placeholder, .dopeImage {
+            width: 30%;
+            max-width: 100%;
+            height: auto;
+            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mac's Method</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <img src="success_story.png" alt="Mac's Method Hero Image">
+            <h1>Transform Your Mindset and Body</h1>
+            <div class="styled-paragraph">
+                Are you ready to conquer your mindset and reach your fitness goals?
+                <span>Mac, a dedicated fitness trainer, is here to help you achieve success and happiness through personalized 1-on-1 coaching.</span>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>About Mac</h2>
+            <img src="macsPhoto.png" alt="Mac's Photo" class="dopeImage" style="align-items: center;">
+            <p><strong>Fitness Trainer:</strong> With years of experience in fitness training, Mac is committed to helping you sculpt your body and strengthen your mind.</p>
+            <p><strong>Motivator:</strong> Mac's unique approach combines physical training with mindset coaching to ensure you not only look great but also feel unstoppable.</p>
+        </section>
+
+        <section class="services">
+            <h2>What You Get with 1-on-1 Coaching</h2>
+            <ul>
+                <li><strong>Personalized Fitness Plans:</strong> Tailored workouts that align with your fitness level and goals.</li>
+                <li><strong>Mindset Coaching:</strong> Strategies to develop a resilient and positive mindset, essential for long-term success.</li>
+                <li><strong>Nutrition Advice:</strong> Guidance on how to fuel your body for optimal performance.</li>
+                <li><strong>Support and Accountability:</strong> Regular check-ins and motivational support to keep you on track.</li>
+            </ul>
+        </section>
+
+        <section class="success-stories">
+            <h2>Success Stories</h2>
+            <img src="dopeTransformation.jpg" alt="Client Transformation" class="dopeImage" style="align-items: center;">
+            <p><strong>Client Wins:</strong> Check out the incredible transformations of Mac's clients. From building muscle to losing fat, these success stories showcase the power of Mac's method.</p>
+            <p><a href="https://www.instagram.com/p/C8sGknSPFIx/" target="_blank">View Client Transformation on Instagram</a></p>
+        </section>
+
+        <section class="cta">
+            <h2>How to Get Started</h2>
+            <img src="ctaExample.png" alt="Action Shot" class="dopeImage" style="align-items: center;">
+            <p><strong>DM "macmethod":</strong> Send a direct message on Instagram with the code "macmethod" to book your first 1-on-1 call.</p>
+            <p><strong>Conquer Your Mindset:</strong> Ready to take the first step? Mac will guide you through the process of overcoming mental barriers and achieving your fitness goals.</p>
+            <p style="text-align: center;"><a href="https://www.instagram.com/direct/t/17847557481198673" target="_blank">Apply for 1-on-1 Session Now</a></p>
+        </section>
+
+        <section class="follow">
+            <h2 style="text-align: center;">Follow Mac on Social Media</h2>
+            <div class="social-media">
+                <a href="https://www.instagram.com/mac_method" target="_blank">
+                    <i class="fab fa-instagram" style="color: white;"></i><span style="color:white">Instagram</span>
+                </a>
+                <a href="https://www.youtube.com/@Mac_Method" target="_blank">
+                    <i class="fab fa-youtube" style="color: white;"></i><span style="color:white">YouTube</span>
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+
+
+
+
